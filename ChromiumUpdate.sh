@@ -35,7 +35,7 @@ if (( $new_rev <= $old_rev )); then
 	exit 0
 fi
 
-echo "Now fetching Chronmium revision ${new_rev}"
+echo "Now fetching Chromium revision ${new_rev}"
 curl -o ${update_dir}/chrome-mac.zip ${base_url}/${new_rev}/chrome-mac.zip
 
 echo "Extracting Chromium"
